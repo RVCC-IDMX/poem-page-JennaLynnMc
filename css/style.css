@@ -1,0 +1,24 @@
+
+body{
+    font-family: "Roboto" ;
+    
+background: #b665d8; /* Old browsers */
+background: -moz-linear-gradient(top,  #b665d8 7%, #b665d8 7%, #b97cd3 47%, #be8dd3 70%, #c09bdb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b665d8 7%,#b665d8 7%,#b97cd3 47%,#be8dd3 70%,#c09bdb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b665d8 7%,#b665d8 7%,#b97cd3 47%,#be8dd3 70%,#c09bdb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b665d8', endColorstr='#c09bdb',GradientType=0 ); /* IE6-9 */
+
+    color: #36064d;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Grenze+Gotisch";
+    font-size: 40pt;
+
+}
+
+header{
+    text-align: center;
+}
+
