@@ -4,13 +4,22 @@ body{
 
     text-align: center;
     
-    background-image: url();
+    background-image: url(/img/unsplash.jpg);
+
+    background-position: center;
+
+
 }
 
 
 h1, h2, h3, h4, h5, h6{
     font-family:"Grenze+Gotisch";
-    font-size: 40pt;
+
+    font-size: 35pt;
+
+    text-align: center;
+
+    color: #1e2839;
 
 }
 
@@ -18,5 +27,17 @@ header{
     text-align: center;
 }
 
+ul{
 
+ list-style-type: none;  
+}
 
+.poem{
+    text-align: center;
+
+    font-size: larger;
+
+    font-family: fantasy;
+   
+    color: #283347;
+}
