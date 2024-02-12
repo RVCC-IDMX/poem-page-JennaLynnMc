@@ -1,9 +1,10 @@
 
 body{
     font-family: "Roboto" ;
+
+    text-align: center;
     
-background: #b665d8;
-    color: #36064d;
+    background-image: url();
 }
 
 
@@ -17,7 +18,5 @@ header{
     text-align: center;
 }
 
-body{
-    text-align: center;
-}
+
 
