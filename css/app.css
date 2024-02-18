@@ -91,6 +91,12 @@ textarea:not([rows]) {
 
 /* 👇 Start custom code 👇 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 
 body {
     font-family: "Roboto";
@@ -99,6 +105,8 @@ body {
     background-position: center;
     display: grid;
     place-items: center;
+    color: #d3dadf;
+    font-size: 1.25rem;
 }
 
 
@@ -109,13 +117,14 @@ h4,
 h5,
 h6 {
     font-family: "Grenze Gotisch";
-    font-size: 35pt;
+    font-size: 3rem;
     text-align: center;
     color: #4d6c81;
 }
 
 header {
     text-align: center;
+    padding: 1rem;
 }
 
 ul {
@@ -126,19 +135,32 @@ ul {
     text-align: center;
     font-size: larger;
     /* font-family: fantasy; */
-    color: #d3dadf;
+
 }
 
 .picture {
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.figcap {
+    font-size: 0.75em;
     padding: 1rem;
 }
 
 img {
     /* width: 300px;
     height: 250px; */
-    max-height: 30vh;
+    max-height: 50vh;
     border-style: groove;
     border-width: medium;
     border-color: #647e90;
 
+}
+
+.author {
+    min-height: 10vh;
+    display: grid;
+    place-items: center;
 }
